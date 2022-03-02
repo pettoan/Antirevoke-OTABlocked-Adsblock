@@ -1,43 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>PayloadContent</key>
-	<array>
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>BlahDNS (Japan) DNS over HTTPS</string>
+		<key>PayloadOrganization</key>
+		<string>encrypted-dns.party</string>
+		<key>PayloadDescription</key>
+		<string>This profile enables BlahDNS (Japan) DNS over HTTPS on all networks using the iOS 14 / iPadOS 14 / tvOS 14 / macOS Big Sur Encrypted DNS feature.
+
+Downloaded from encrypted-dns.party.</string>
+		<key>ConsentText</key>
 		<dict>
-			<key>PayloadDescription</key>
-			<string>Global HTTP Proxy</string>
-			<key>PayloadDisplayName</key>
-			<string>Antirevoke by Lãng Khách</string>
-			<key>PayloadIdentifier</key>
-<string>com.apple.proxy.http.global.6F6F3A4B-6E3A-4B20-B815-7BC2757C9959</string>
-			<key>PayloadType</key>
-			<string>com.apple.proxy.http.global</string>
-			<key>PayloadUUID</key>
-			<string>6F6F3A4B-6E3A-4B20-B815-7BC2757C9959</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProxyCaptiveLoginAllowed</key>
-			<false/>
-		<key>ProxyPACFallbackAllowed</key>
-			<false/>
-			<key>ProxyPACURL</key>
-			<string>https://raw.githubusercontent.com/langkhach270389/Antirevoke-OTABlocked-Adsblock/master/Profile/Antirevoke-LK.js</string>
-			<key>ProxyType</key>
-			<string>Auto</string>
+			<key>default</key>
+			<string>Privacy policy:
+https://blahdns.com</string>
 		</dict>
-	</array>
-	<key>PayloadDisplayName</key>
-	<string>Antirevoke by Lãng Khách</string>
-	<key>PayloadIdentifier</key>
-	<string>michaels-imac.local.CECF75B7-75A4-4FC8-8B9B-1DFEDC31D3D9</string>
-	<key>PayloadRemovalDisallowed</key>
-	<false/>
-	<key>PayloadType</key>
-	<string>Configuration</string>
-	<key>PayloadUUID</key>
-	<string>05310982-9E13-4A65-B5E9-9B523B2D2DE7</string>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
-</dict>
+		<key>PayloadIdentifier</key>
+		<string>41e87916-faaf-42f5-9378-a236e57fca50</string>
+		<key>PayloadScope</key>
+		<string>User</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>3ac76bbe-dc66-4078-adc7-c172cd904b1b</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+					<key>ServerAddresses</key>
+					<array>
+						<string>139.162.112.47</string>
+						<string>2400:8902::f03c:92ff:fe27:344b</string>
+					</array>
+					<key>ServerURL</key>
+					<string>https://doh-jp.blahdns.com/dns-query</string>
+				</dict>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadIdentifier</key>
+				<string>51b4aa71-c669-4b9d-8897-3c6cd05f683c</string>
+				<key>PayloadUUID</key>
+				<string>22713002-14e1-4024-8a7a-65ddf0596a13</string>
+				<key>PayloadDisplayName</key>
+				<string>BlahDNS (Japan) DNS over HTTPS</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+	</dict>
 </plist>
